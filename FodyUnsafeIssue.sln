@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Fody", "Test.Fody\Test.Fody.csproj", "{152D2405-57BB-411C-A8B4-6F6B375C44D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{B1A255D0-B488-4BE9-B3D2-C4B4C775B077}"
+	ProjectSection(ProjectDependencies) = postProject
+		{152D2405-57BB-411C-A8B4-6F6B375C44D9} = {152D2405-57BB-411C-A8B4-6F6B375C44D9}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{152D2405-57BB-411C-A8B4-6F6B375C44D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152D2405-57BB-411C-A8B4-6F6B375C44D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152D2405-57BB-411C-A8B4-6F6B375C44D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152D2405-57BB-411C-A8B4-6F6B375C44D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A255D0-B488-4BE9-B3D2-C4B4C775B077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A255D0-B488-4BE9-B3D2-C4B4C775B077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A255D0-B488-4BE9-B3D2-C4B4C775B077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A255D0-B488-4BE9-B3D2-C4B4C775B077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
